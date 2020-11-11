@@ -15,11 +15,17 @@ div {
     position: relative;
     border: none;
 }
-nav ul {
-    float: right;
+.nav ul {
+    padding-top: 10px;
+    margin: 0;
+}
+#logo {
+    float: none;
 }
 nav ul li {
     display: inline-block;
+    float: right;
+    padding-right: 80px;
 }
 .innhold {
     margin-left: 10%;
@@ -28,13 +34,23 @@ nav ul li {
 
 .footer {
     background: white;
-    width: 100%;
-    height: 80px;
+    height: 110px;
     border: solid 1px;
 }
-footer ul {
-    text-align: center;
+.footer table {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-footer ul li {
-    display: inline-block;
+.left {
+    text-align: left;
+    width: 33%;
+}
+.center {
+    text-align: center;
+    width: 33%;
+}
+.right {
+    text-align: right;
+    width: 33%;
 }
