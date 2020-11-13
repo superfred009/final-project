@@ -1,3 +1,23 @@
 p {
-    font-size: 100px;
+    /*font-size: 100px;*/
+}
+
+.sensor-img{
+    height: auto;
+    width: 200px;
+}
+
+.app-img{
+    height: auto;
+    width: 200px;
+}
+
+.app-popup-img{
+    height: auto;
+    width: 200px;
+}
+
+.app-donate-img{
+    height: auto;
+    width: 200px;
 }

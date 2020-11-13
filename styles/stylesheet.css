@@ -84,6 +84,10 @@ a:hover {
     text-decoration: underline;
 }
 
+/*a:visited {
+    color: #8D6D74;
+}*/
+
 th {
     color: #8D6D74;
     font-weight: lighter;
