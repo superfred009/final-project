@@ -1,0 +1,30 @@
+.climate-change-header {
+    text-align: center;
+}
+
+.climate-change-text {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+/*
+a:link {
+text-decoration: none;
+color: #8D6D74;
+}
+
+a:visited {
+color: #537D88;
+}
+
+a:hover {
+text-decoration: underline;
+}
+*/
+.climate-change-img {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
