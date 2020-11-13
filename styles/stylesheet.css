@@ -26,9 +26,9 @@ div {
 }
 
 nav ul li {
-    display: inline-block;
     float: right;
     padding-right: 25px;
+    list-style: none;
 }
 
 nav a {
