@@ -1,5 +1,4 @@
 .headerimg {
-    background-color: #E1E5F2;
     background-size: cover;
     text-align: center;
     font-size: 40px;
@@ -8,7 +7,7 @@
     background-repeat: no-repeat;
     padding: 0px;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     position: relative;
   }
 
@@ -20,9 +19,99 @@
 
   .headertitle {
     color: #292929;
-    text-align: end;
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 550px;
+    top: 20px;
     font-weight: lighter;
+    font-size: 70px;
+  }
+
+  .headertext {
+      color: #292929;
+      position: absolute;
+      left: 390px;
+      top: 115px;
+      font-weight: lighter;
+      font-style: italic;
+      font-size: 34px;
+  }
+
+  .climatechange {
+      font-size: 60px;
+      color: #8D6D74;
+      font-weight: normal;
+  }
+
+  .pitchtitle {
+      text-align: center;
+  }
+
+  .pitchtext {
+      text-align: center;
+      font-size: 25px;
+      font-weight: lighter;
+      margin-bottom: 30px;
+  }
+
+  .solution {
+      margin-top: 90px;
+  }
+
+  .solutiontext {
+      margin-bottom: 300px;
+  }
+
+  hr {
+      color: black;
+      width: 70%;
+  }
+
+  .appbilde {
+      height: 70%;
+      width: auto;
+      position: absolute;
+      right: 0%;
+      margin-top: 6px;
+      margin-right: 10%;
+      padding-left: 10px;
+      margin-bottom: 40px;
+      display: block;
+  }
+  
+  .ungoal {
+      width: 100%;
+      border-top: solid 1px;
+      border-color: black;
+      background-color: #bebebe;
+  }
+
+
+  .untable {
+      width: 100%;
+      padding: 30px;
+      table-layout: fixed;
+      overflow-wrap: break-word;
+      font-size: 25px;
+      font-weight: lighter;
+  }
+
+  .unleft {
+      text-align: right;
+  }
+
+  .uncenter {
+      text-align: center;
+  }
+
+  .UNimg {
+      height: 70px;
+      width: auto;
+  }
+
+  .unright {
+      text-align: left;
+  }
+
+  .untitle {
+      font-weight: bold;
   }
