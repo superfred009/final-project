@@ -89,7 +89,7 @@
   
   .ungoal {
       width: 100%;
-      background-color: #dadada;
+      background-color: #B6D094;
       background: cover;
       margin-top: 50px;
   }
@@ -101,6 +101,8 @@
       overflow-wrap: break-word;
       font-size: 25px;
       font-weight: lighter;
+      border-top: solid 1px;
+      border-color: black;
   }
 
   .unleft {
@@ -121,6 +123,7 @@
   }
 
   .untitle {
-      font-weight: bold;
+      font-weight: normal;
       letter-spacing: 1px;
+      font-size: 30px;
   }
