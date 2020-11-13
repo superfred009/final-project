@@ -132,6 +132,11 @@
       margin-top: 50px;
   }
 
+  .ungoal a {
+      color: #292929;
+      font-weight: normal;
+  }
+
   .untable {
       width: 100%;
       padding: 30px;
