@@ -13,4 +13,16 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 30px;
+}
+
+.climate-change-header2 {
+    color: #5c4d50;
+    margin-bottom: 0px;
+    font-size: 60px;
+}
+
+.climate-change-header3 {
+    margin-top: 10px;
+    font-size: 30px;
 }
