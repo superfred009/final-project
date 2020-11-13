@@ -57,10 +57,14 @@
 
   .solution {
       margin-top: 90px;
+      text-align: right;
+      margin-left: 40%;
   }
 
   .solutiontext {
-      margin-bottom: 300px;
+      margin-bottom: 350px;
+      text-align: right;
+      margin-left: 40%;
   }
 
   hr {
@@ -69,23 +73,26 @@
   }
 
   .appbilde {
-      height: 70%;
-      width: auto;
+      width: 25vw;
+      height: auto;
       position: absolute;
-      right: 0%;
-      margin-top: 6px;
-      margin-right: 10%;
-      padding-left: 10px;
-      margin-bottom: 40px;
-      display: block;
+      margin-right: 50%;
+  }
+
+  .sustainableinnhold {
+      margin-top: 50px;
+  }
+
+  .sustainable {
+      margin-top: 40px;
   }
   
   .ungoal {
       width: 100%;
       background-color: #dadada;
       background: cover;
+      margin-top: 50px;
   }
-
 
   .untable {
       width: 100%;
@@ -94,8 +101,6 @@
       overflow-wrap: break-word;
       font-size: 25px;
       font-weight: lighter;
-      border-top: solid 1px;
-      border-color: black;
   }
 
   .unleft {
@@ -117,4 +122,5 @@
 
   .untitle {
       font-weight: bold;
+      letter-spacing: 1px;
   }
