@@ -1,3 +1,5 @@
+
+
 .headerimg {
     background-size: cover;
     text-align: center;
@@ -23,13 +25,13 @@
     left: 550px;
     top: 20px;
     font-weight: lighter;
-    font-size: 70px;
+    font-size: 80px;
   }
 
   .headertext {
       color: #292929;
       position: absolute;
-      left: 390px;
+      left: 395px;
       top: 115px;
       font-weight: lighter;
       font-style: italic;
@@ -80,9 +82,8 @@
   
   .ungoal {
       width: 100%;
-      border-top: solid 1px;
-      border-color: black;
-      background-color: #bebebe;
+      background-color: #dadada;
+      background: cover;
   }
 
 
@@ -93,6 +94,8 @@
       overflow-wrap: break-word;
       font-size: 25px;
       font-weight: lighter;
+      border-top: solid 1px;
+      border-color: black;
   }
 
   .unleft {
