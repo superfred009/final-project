@@ -113,10 +113,16 @@
   .sustainable {
       margin-top: 40px;
       text-align: center;
+      margin-left: 10px;
   }
 
   .sustainabletext {
+      text-align: center;
   }
+
+
+
+ 
   
   .ungoal {
       width: 100%;
