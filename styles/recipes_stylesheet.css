@@ -15,27 +15,21 @@
     color: #8D6D74;
 }
 
-/*.taco {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/fred/final-project/img/tacosnurrer.jpg");
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.taco {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #537D88;
+    border-radius: 25px;
 }
 
-.taco-heading {
-    font-size: 25px;
-    color: #FFFFFF;
-    text-align: center;
+.soup {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #B6D094;
+    border-radius: 25px;
 }
-
-.taco-text {
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: center;
-}*/
 
 .recipe-info {
     font-family: Roboto, sans-serif;
@@ -49,19 +43,6 @@ h2, h3 {
     color: #292929;
     text-align: center;
 }
-
-
-/*.centered-text {
-    position: absolute;
-    text-align: left;
-    top: 15%;
-    left: 6.8%;
-    background-color: #537D88;
-    opacity: 0.8;
-    color: #ffffff;
-    border-radius: 5px;
-    font-size: 20px;
-}*/
 
 .recipe-img {
     height: auto;
