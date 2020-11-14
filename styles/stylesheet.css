@@ -51,7 +51,7 @@ nav a:hover {
 .footer {
     background-color: #FFFFFF;
     height: 145px;
-    border-top: solid 1px;
+    /*border-top: solid 1px;*/
     font-weight: lighter;
     font-size: 18px;
 }
@@ -110,8 +110,8 @@ p {
 }
 
 .backtotop {
-    border-top: solid 1px;
-    border-color: black;
+    /*border-top: solid 1px;
+    border-color: black;*/
     height: 40px;
     width: 100%;
     text-align: center;

@@ -7,9 +7,11 @@
     width: 1000px;
 }
 
-a href {
+a {
     color: black;
+    text-decoration: none;
 }
+
 
 .nav {
     background: #E5E5E5;
@@ -38,6 +40,8 @@ a href {
 }
 
 .nav a:hover {
+    background-color: #8D6D74;
+    border-radius: 5px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -99,4 +103,48 @@ h2, h3 {
 
 ul {
     list-style: none;
+}
+
+.backtotop {
+    background-color: #E5E5E5;
+    /*border-top: solid 1px;
+    border-color: black;*/
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.backtotop ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: black;
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+.backtotop ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.backtotop ul li a:hover {
+    background-color: #8D6D74;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    height: 145px;
+    /*border-top: solid 1px;*/
+    font-weight: lighter;
+    font-size: 18px;
+}
+.footer table {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 13px;
 }
