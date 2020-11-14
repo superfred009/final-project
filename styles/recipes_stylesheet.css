@@ -45,7 +45,8 @@ h2, h3 {
 }
 
 .recipe-img {
-    height: auto;
+    object-fit: cover;
+    height: 200px;
     width: 100%;
     text-align: center;
     position: relative;
