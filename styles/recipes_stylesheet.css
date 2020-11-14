@@ -6,3 +6,36 @@
     height: auto;
     width: 1000px;
 }
+
+.recipe-header {
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #8D6D74;
+}
+
+.recipe-info {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+h2, h3 {
+    font-size: 25px;
+    color: #292929;
+    text-align: center;
+}
+
+.recipe-img {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ol li{
+    margin-bottom: 15px;
+}
