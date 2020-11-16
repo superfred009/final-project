@@ -129,6 +129,7 @@
       background-color: #90cfb2;
       background: cover;
       margin-top: 50px;
+      margin-bottom: -17px;
   }
 
   .ungoal a {
@@ -143,8 +144,6 @@
       overflow-wrap: break-word;
       font-size: 25px;
       font-weight: lighter;
-      border-top: solid 1px;
-      border-color: black;
   }
 
   .unleft {
