@@ -2,22 +2,31 @@ p {
     /*font-size: 100px;*/
 }
 
-.sensor-img{
-    height: auto;
-    width: 200px;
-}
-
 .app-img{
     height: auto;
-    width: 200px;
+    width: 300px;
+}
+.app-text {
+    width: 60%;
+}
+.tr-height {
+    height: 300px;
 }
 
 .app-popup-img{
     height: auto;
-    width: 200px;
+    width: 250px;
 }
 
 .app-donate-img{
+    height: auto;
+    width: 200px;
+}
+.app-popup-text {
+    width: 70%;
+}
+
+.sensor-img{
     height: auto;
     width: 200px;
 }
