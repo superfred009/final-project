@@ -1,34 +1,61 @@
+.headerimg {
+    background-size: cover;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 0px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .headerimage {
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+
+
+.title {
+    font-weight: normal;
+    font-size: 25px;
+}
+
 .fiveways-header, .fiveways-text {
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .fiveways-img {
     height: auto;
     width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 a {
-    color: black;
+    color: #537D88;
     text-decoration: none;
 }
 
 
 .nav {
-    background: #E5E5E5;
+    background: #FFFFFF;
     font-family: Roboto, sans-serif;
     font-size: 20px;
-    color: black;
     width: 100%;
 
 }
 
 .nav ul {
-    color: black;
     margin: 0;
 }
 
 .nav ul li {
-    color: black;
     list-style: none;
 }
 
@@ -37,22 +64,20 @@ a {
     letter-spacing: 1px;
     font-weight: lighter;
     font-size: 20px;
+    color: #537D88;
 }
 
 .nav a:hover {
-    background-color: #8D6D74;
-    border-radius: 5px;
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 
-.logo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 45%;
-    height: 150px;
-    width: 150px;
-    position: center;
+.recipetitle {
+    font-weight: normal;
+}
+
+.recipe-description {
+    text-align: center;
 }
 
 .recipe-header {
@@ -61,6 +86,20 @@ a {
     font-weight: lighter;
     text-align: center;
     color: #8D6D74;
+}
+
+.ingredients {
+    font-weight: normal;
+}
+
+.fremgang {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.linje {
+    width: 40%;
 }
 
 .taco {
@@ -119,18 +158,19 @@ ul {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: lighter;
-    color: black;
     margin-right: 40px;
     margin-top: -10px;
 }
 
 .backtotop ul li a {
+    color: black;
     font-size: 20px;
     text-transform: uppercase;
 }
 
 .backtotop ul li a:hover {
     background-color: #8D6D74;
+    padding-top: 3px;
     color: #FFFFFF;
     text-decoration: none;
 }
