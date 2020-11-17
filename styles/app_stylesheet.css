@@ -1,5 +1,6 @@
-p {
-    /*font-size: 100px;*/
+h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
 }
 
 .app-img{
@@ -17,13 +18,16 @@ p {
     height: auto;
     width: 250px;
 }
+.popimg-block {
+    width: 300px;
+}
 
 .app-donate-img{
     height: auto;
     width: 200px;
 }
 .app-popup-text {
-    width: 70%;
+   
 }
 
 .sensor-img{
