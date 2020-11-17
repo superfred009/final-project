@@ -20,7 +20,7 @@ body, html {
 
   .headerimg {
     background-color: #E1E5F2;
-    background-image: url("/img/headerBIG.jpg");
+    background-image: url(/img/headerBIG.jpg);
     text-align: center;
     font-size: 40px;
     height: 100%;
