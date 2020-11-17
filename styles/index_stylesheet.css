@@ -334,37 +334,24 @@ body, html {
         width: 100%;
     }
 
-    .untable {
-        width: 100%;
+    table.untable {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 25px;
         font-weight: lighter;
         border-collapse: collapse;
     }
-
-
-    .unleft {
+    .unleft, .uncenter, .unright {
         text-align: center;
     }
   
-    .uncenter {
-        text-align: center;
-    }
   
     .UNimg {
         height: 70px;
         width: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        text-align: center;
     }
   
-    .unright {
-        text-align: center;
-    }
   
-    .untext {
-        text-align: center; 
-    }
-    
 }
 
