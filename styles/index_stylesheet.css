@@ -66,40 +66,76 @@ body, html {
       text-align: center;
       font-size: 25px;
       font-weight: lighter;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
   }
+
+
 
   .solution {
       margin-top: 90px;
       text-align: right;
-      margin-right: 20px;
+      margin-right: -20%;
+      margin-left: 20%;
+      color: #82646B;
   }
 
   .solutiontext {
       margin-bottom: 100px;
       text-align: right; 
-      margin-right: 20px;
+      margin-right: -20%;
+      margin-left: 30%;
   }
 
+  .solutiontext a {
+    color: #4C737B;
+  }
+
+  .solutionlinjeleft {
+    margin-right: -20%;
+    margin-top: -3%;
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    border: none;
+}
   .fomo {
     margin-top: 90px;
     text-align: left;
+    margin-left: -20%;
+    margin-right: 20%;
+    color: #82646B;
+}
+
+.solutionlinjeright {
+    margin-left: -20%;
+    margin-top: -3%;
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    border: none;
 }
 
 .fomotext {
     margin-bottom: 100px;
     text-align: left; 
+    margin-left: -20%;
+    margin-right: 30%;
 }
 
   .solutiontable {
       width: 100%;
       border-collapse: collapse;
       padding: 20px;
+      background-color: #f0f0f0;
   }
 
   .solutiontable td {
       vertical-align: top;
       width: 33%;
+  }
+
+  .solutioncenter {
+      text-align: center;
   }
 
   hr {
@@ -108,9 +144,10 @@ body, html {
   }
 
   .appbilde {
-      width: 350px;
+      width: 260px;
       height: auto;
-      margin-top: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
   }
 
   .sustainableinnhold {
@@ -172,3 +209,162 @@ body, html {
       letter-spacing: 1px;
       font-size: 30px;
   }
+
+  .untext {
+      color: #292929;
+  }
+
+  @media screen and (max-width: 1315px) {
+    .fomo, .fomotext {
+        margin-left: 0;
+        
+    }
+
+    .fomo, .solution {
+        margin-top: 10%;
+    }
+
+    .solution, .solutiontext {
+        margin-right: 0;
+    }
+
+    .solutionlinjeright {
+        margin-left: 0;
+        height: 2px;
+        width: 80%;
+    }
+    
+    .solutionlinjeleft {
+        margin-right: 0;
+        height: 2px;
+        width: 80%;
+    }
+
+    .fomotext, .solutiontext {
+        margin-bottom: 10%;
+    }
+
+}
+
+  @media screen and (max-width: 900px) {
+    .solutiontable, .solutiontable td, .solutiontable tr {
+        display: block;
+    }
+    .solutiontable td { 
+        margin-bottom: 20px;
+        margin: 0;
+    }
+
+    .solution {
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+        color: #82646B;
+    }
+  
+    .solutiontext {
+        margin-bottom: 20px;
+        text-align: center; 
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+  
+    .solutiontext a {
+      color: #4C737B;
+    }
+  
+    .solutionlinjeleft {
+      margin-right: 10%;
+      margin-top: -3%;
+      height: 2px;
+      width: 80%;
+      background-color: white;
+      border: none;
+  }
+    .fomo {
+      margin-top: 30px;
+      text-align: center;
+      margin-left: 5%;
+      margin-right: 5%;
+      color: #82646B;
+  }
+  
+  .solutionlinjeright {
+    margin-left: 10%;
+    margin-top: -3%;
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    border: none;
+  }
+  
+  .fomotext {
+      margin-bottom: 2px;
+      text-align: center; 
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  
+    .solutiontable {
+        width: 100%;
+        border-collapse: collapse;
+        padding: 20px;
+        background-color: #f0f0f0;
+        padding-top: 0;
+    }
+  
+    .solutiontable td {
+        vertical-align: top;
+        width: 100%;
+    }
+  
+    .solutioncenter {
+        text-align: center;
+    }
+
+    .untable, .untable td, .untable tr {
+        display: block;
+    }
+
+  
+    .untable td { 
+        margin-bottom: 20px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .untable {
+        width: 100%;
+        font-size: 25px;
+        font-weight: lighter;
+        border-collapse: collapse;
+    }
+
+
+    .unleft {
+        text-align: center;
+    }
+  
+    .uncenter {
+        text-align: center;
+    }
+  
+    .UNimg {
+        height: 70px;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+  
+    .unright {
+        text-align: center;
+    }
+  
+    .untext {
+        text-align: center; 
+    }
+    
+}
+

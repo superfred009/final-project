@@ -72,6 +72,7 @@ nav a:hover {
 .right {
     text-align: right;
     width: 33%;
+    vertical-align: top;
 }
 
 a {
