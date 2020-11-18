@@ -29,15 +29,19 @@
 
 .headerimg {
     background-color: #ffffff;
+    background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
     height: 200px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 40px;
-    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
-  .headerimage {
+  /*.headerimage {
       width: 100%;
       height: auto;
       position: relative;
-  }
+  }*/
