@@ -26,6 +26,11 @@ div {
     float: left;
     margin-left: -16px;
 }
+.smallLogo {
+    width: 33px;
+    margin-top: -5px;
+    padding-left: 10px;
+}
 
 nav ul li {
     float: right;
