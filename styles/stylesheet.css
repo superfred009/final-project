@@ -15,7 +15,7 @@ div {
     position: fixed;
     border: none;
     box-shadow: 0 3px 3px -3px rgb(158, 158, 158);
-
+    z-index: 1;
 }
 .nav ul {
     padding-top: 12px;
