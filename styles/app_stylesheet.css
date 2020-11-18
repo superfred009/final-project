@@ -36,9 +36,14 @@ hr {
 
 .sensor-box {
     background-color: #f0f0f0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1px;
+    padding-bottom: 5px;
 }
 .sensor-header {
     text-align: right;
+    color: #82646B;
 }
 .sensor-text-block {
     width: 60%;
@@ -52,14 +57,17 @@ hr {
     width: 350px;
 }
 
+.donateheader {
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+.donate-text {
+    line-height: 1.5;
+}
 .app-donate-img{
     height: auto;
-    width: 200px;
-}
-
-.points-img {
-    height: auto;
-    width: 300px;
+    width: 230px;
+    padding-left: 20px;
 }
 
 .headerimg {
@@ -75,9 +83,9 @@ hr {
     background-attachment: fixed;
   }
 
-  .headerimage {
+  /*.headerimage {
     width: 100%;
     height: auto;
-    /*position: relative;*/
+    position: relative;
     background-attachment: fixed;
-  }
+  }*/
