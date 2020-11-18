@@ -10,9 +10,13 @@ hr {
 .app-img{
     height: auto;
     width: 350px;
+    padding-left: 5%;
 }
 .app-text {
     width: 60%;
+}
+.app-text p {
+    line-height: 1.5;
 }
 .tr-height {
     height: 250px;
