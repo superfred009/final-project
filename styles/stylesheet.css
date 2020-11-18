@@ -10,7 +10,7 @@ div {
 
 .nav {
     background: white;
-    height: 45px;
+    min-height: 45px;
     width: 100%;
     position: fixed;
     border: none;
@@ -28,8 +28,9 @@ div {
 }
 .smallLogo {
     width: 33px;
+    height: auto;
     margin-top: -5px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 nav ul li {
@@ -147,4 +148,18 @@ p {
 
 .normalfont {
     font-weight: normal;
+}
+
+@media screen and (max-width: 900px) {
+nav {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    float: none;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+}
 }
