@@ -9,11 +9,12 @@ hr {
 
 .app-img{
     height: auto;
-    width: 350px;
-    padding-left: 5%;
+    width: 300px;
+    padding-left: 15%;
 }
 .app-text {
     width: 60%;
+    border-top: solid 1px;
 }
 .app-text p {
     line-height: 1.5;
@@ -30,9 +31,12 @@ hr {
     width: 350px;
 }
 .app-popup-text {
-   
+   line-height: 1.5;
 }
 
+.sensor-box {
+    background-color: #f0f0f0;
+}
 .sensor-header {
     text-align: right;
 }
