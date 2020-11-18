@@ -8,6 +8,11 @@ div {
     display: block;
 }
 
+
+
+
+
+
 .nav {
     background: white;
     min-height: 45px;
@@ -151,15 +156,5 @@ p {
 }
 
 @media screen and (max-width: 900px) {
-nav {
-    position: relative;
-    overflow: hidden;
-    height: 100px;
-    float: none;
-}
 
-nav ul li {
-    display: block;
-    text-align: center;
-}
 }
