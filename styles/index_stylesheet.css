@@ -3,6 +3,7 @@ body, html {
     height: 100%!important;
     width: 100%!important;
     padding: 0;
+    background-color: white;
 }
 
 /*.headerimg {
@@ -29,6 +30,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
 
   .headertitle {
@@ -41,7 +43,7 @@ body, html {
     top: 20px;
     font-weight: lighter;
     font-size: 80px;
-    padding-top: 150px;  
+    padding-top: 150px;
   }
 
 
