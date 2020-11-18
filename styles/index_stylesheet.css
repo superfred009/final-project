@@ -3,7 +3,6 @@ body, html {
     height: 100%!important;
     width: 100%!important;
     padding: 0;
-    background-color: white;
 }
 
 /*.headerimg {
@@ -19,6 +18,8 @@ body, html {
   }*/
 
 .innhold {
+    background-color: white;
+    position: relative;
 }
 
   .headerimg {
@@ -44,6 +45,8 @@ body, html {
     font-weight: lighter;
     font-size: 80px;
     padding-top: 150px;
+    display:block;
+    position: fixed;
   }
 
 
@@ -71,16 +74,22 @@ body, html {
   .pitchtitle {
       text-align: center;
       font-size: 35px;
+      margin: 0;
+      padding: 40px;
   }
 
   .pitchtext {
       text-align: center;
       font-size: 25px;
       font-weight: lighter;
-      margin-bottom: 40px;
+      padding-bottom: 40px;
+      margin: 0;
   }
 
-
+.solutioninnhold {
+    background-color: white;
+    position: relative;
+}
 
   .solution {
       margin-top: 90px;
@@ -162,8 +171,9 @@ body, html {
   }
 
   .sustainableinnhold {
-      margin-top: 50px;
-      margin-bottom: 70px;
+      padding-top: 50px;
+      padding-bottom: 70px;
+      margin: 0;
   }
 
   .sustainable {
@@ -180,8 +190,9 @@ body, html {
       width: 100%;
       background-color: #90cfb2;
       background: cover;
-      margin-top: 50px;
+      padding-top: 50px;
       margin-bottom: -17px;
+      position: relative;
   }
 
   .ungoal a {
