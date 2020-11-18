@@ -27,7 +27,7 @@ body, html {
     background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
     text-align: center;
     font-size: 40px;
-    height: 97%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@ body, html {
   }
 
   .headertitle {
-    color: #292929;
+    color: #6d4f55;
     position: absolute;
     display: block;
     margin-right: auto;
@@ -43,10 +43,12 @@ body, html {
     width: 100%;
     top: 20px;
     font-weight: lighter;
-    font-size: 80px;
-    padding-top: 150px;
+    font-size: 160px;
+    padding-top: 130px;
     display:block;
     position: fixed;
+    font-family: 'Caveat', Roboto, sans-serif;
+    text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.849);
   }
 
 
@@ -55,13 +57,15 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-right: 12%;
     top: 90px;
-    font-weight: lighter;
-    font-style: italic;
     font-size: 34px;
-    margin-top: -10px;
+    margin-top: -50px;
     margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    border: 2px solid;
+    border-color: #ffffff;
+    width: 39%;
+    text-shadow: 1px 1px 2px white;
 }
 
 
@@ -190,7 +194,6 @@ body, html {
       width: 100%;
       background-color: #90cfb2;
       background: cover;
-      padding-top: 50px;
       margin-bottom: -17px;
       position: relative;
   }
@@ -372,6 +375,15 @@ body, html {
     .UNimg {
         height: 70px;
         width: auto;
+    }
+
+    .headertitle {
+        font-size: 17vw;
+    }
+
+    .headertext {
+        margin-top: -30px;
+        width: 80%;
     }
   
   
