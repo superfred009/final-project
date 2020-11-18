@@ -12,8 +12,10 @@ div {
     background: white;
     height: 45px;
     width: 100%;
-    position: relative;
+    position: fixed;
     border: none;
+    box-shadow: 0 3px 3px -3px rgb(158, 158, 158);
+
 }
 .nav ul {
     padding-top: 12px;

@@ -2,7 +2,7 @@
 body, html {
     height: 100%!important;
     width: 100%!important;
-    padding: 0%;
+    padding: 0;
 }
 
 /*.headerimg {
@@ -17,19 +17,20 @@ body, html {
     position: relative;
   }*/
 
+.innhold {
+}
 
   .headerimg {
-    background-color: #E1E5F2;
+    background-color: #ffffff;
     background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
     text-align: center;
     font-size: 40px;
-    height: 100%;
-    width: auto;
+    height: 97%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
   }
+
   .headertitle {
     color: #292929;
     position: absolute;
