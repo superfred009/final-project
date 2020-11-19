@@ -8,11 +8,6 @@ div {
     display: block;
 }
 
-
-
-
-
-
 .nav {
     background: white;
     min-height: 45px;
@@ -22,15 +17,26 @@ div {
     box-shadow: 0 3px 3px -3px rgb(158, 158, 158);
     z-index: 1;
 }
+@media screen and (max-width: 900px) {
+    .home {
+        float: none;
+        margin-left: 0;
+    }
+    .nav ul li {
+        float: none;
+        text-align: center;
+        padding-right: 0;
+    }
+}
 .nav ul {
     padding-top: 12px;
     margin: 0;
 }
 
-#home {
-    float: left;
+.home {
+    float: left; 
     margin-left: -16px;
-}
+} 
 .smallLogo {
     width: 33px;
     height: auto;
@@ -49,7 +55,7 @@ nav a {
     letter-spacing: 1px;
     font-weight: lighter;
     font-size: 20px;
-}
+} 
 
 nav a:hover {
     color: black;
@@ -59,6 +65,13 @@ nav a:hover {
 .innhold {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+@media screen and (max-width: 900px) {
+    .innhold {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
 }
 
 .footer {
@@ -72,6 +85,12 @@ nav a:hover {
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 13px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer table {
+        display: block;
+    }
 }
 .left {
     text-align: left;
@@ -153,8 +172,4 @@ p {
 
 .normalfont {
     font-weight: normal;
-}
-
-@media screen and (max-width: 900px) {
-
 }
