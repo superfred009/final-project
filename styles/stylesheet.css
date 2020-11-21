@@ -102,6 +102,10 @@ nav a:hover {
         position: static;
     }
 
+    .smallLogo {
+        padding-left: 0;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -117,33 +121,60 @@ nav a:hover {
     font-weight: lighter;
     font-size: 18px;
 }
+
 .footer table {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 13px;
+    display: block;
 }
 
-@media screen and (max-width: 900px) {
-    .footer table {
-        display: block;
-    }
+.footertable {
+    list-style: none;
+    margin: 0;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.footertitle {
+    color: #8D6D74;
+}
+
+
 
 .left {
     text-align: left;
-    width: 33%;
+    flex: 1;
 }
 .center {
+    flex: 1;
     text-align: center;
-    width: 33%;
-    vertical-align: top;
 }
 .right {
+    flex: 1;
     text-align: right;
-    width: 33%;
-    vertical-align: top;
+} 
+
+@media screen and (max-width: 900px) {
+    .footertable {
+        display: block;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .right {
+        text-align: center;
+    }
 }
+
 
 a {
     color: #537D88;
