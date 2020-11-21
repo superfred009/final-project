@@ -163,16 +163,6 @@ hr {
         margin-left: 25%;
     }
 
-     .sensor-box {
-        background-color: #f0f0f0;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 1px;
-        padding-bottom: 5px;
-        margin-top: 60%;
-        height: 1100px;
-    }
-
     .app-img{
         height: auto;
         width: 300px;
@@ -205,6 +195,16 @@ hr {
         padding-left: 20px;
     }
 
+    .donateline {
+        background-color: #f0f0f0;
+        width: 90%;
+        margin-top: -1.5%;
+        height: 3px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .sensor-header {
         text-align: right;
         color: #82646B;
@@ -218,13 +218,16 @@ hr {
         width: 160%;
     }
 
-    .donateline {
+    .sensor-box {
         background-color: #f0f0f0;
-        width: 90%;
-        margin-top: -1.5%;
-        height: 3px;
-        border: none;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1px;
+        padding-bottom: 5px;
+        margin-top: 60%;
+        height: 1100px;
     }
+
+
+    
 }
