@@ -31,7 +31,19 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+  }
+
+
+  @media screen and (max-width: 1315px) { 
+    .headerimg { 
+    height: 800px;
+    }
+  }
+  @media screen and (max-width: 900px) { 
+    .headerimg { 
+    height: 600px;
+    }
   }
 
   .headertitle {
@@ -47,7 +59,6 @@ body, html {
     letter-spacing: 10px;
     padding-top: 130px;
     display: block;
-    position: fixed;
     font-family: 'Caveat', Roboto, sans-serif;
     text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.849);
   }
@@ -271,6 +282,28 @@ body, html {
         margin-bottom: 10%;
     }
 
+    .headertitle {
+        font-size: 10vw;
+        margin-top: 120px;
+    }
+
+    .headertext {
+        margin-top: -2%;
+        width: 50%;
+    }
+
+}
+@media screen and (max-height: 450px) {
+    .headertitle {
+        font-size: 10vw;
+        margin-top: -100px;
+    }
+
+    .headertext {
+        margin-top: -2%;
+        width: 50%;
+    }
+
 }
 
   @media screen and (max-width: 900px) {
@@ -384,7 +417,7 @@ body, html {
 
     .headertitle {
         font-size: 17vw;
-        margin-top: 35%;
+        margin-top: 200px;
     }
 
     .headertext {

@@ -1,3 +1,7 @@
+*:focus {
+    outline: solid 2px #8D6D74;
+}
+
 body {
     background-color: #FFFFFF;
     margin: 0px;
@@ -17,20 +21,11 @@ div {
     box-shadow: 0 3px 3px -3px rgb(158, 158, 158);
     z-index: 1;
 }
-@media screen and (max-width: 900px) {
-    .home {
-        float: none;
-        margin-left: 0;
-    }
-    .nav ul li {
-        float: none;
-        text-align: center;
-        padding-right: 0;
-    }
-}
-.nav ul {
+
+nav ul {
     padding-top: 12px;
     margin: 0;
+    /* display: inline-block; */
 }
 
 .home {
@@ -44,8 +39,16 @@ div {
     padding-left: 5px;
 }
 
-nav ul li {
+.navlist {
     float: right;
+}
+
+.logolist {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
     padding-right: 25px;
     list-style: none;
 }
@@ -62,9 +65,44 @@ nav a:hover {
     text-decoration: none;
 }
 
+
+
 .innhold {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .home {
+        float: none;
+        margin-left: 0;
+    }
+
+    .navlist {
+        float: none;
+    }
+    
+    .logolist {
+        text-align: center;
+        display: block;
+    }
+
+    .logolist li a {
+        display: block;
+    }
+
+    .nav ul li {
+        display: block;
+        text-align: center;
+        padding-right: 0;
+        line-height: 35px;
+    }
+
+    .nav {
+        position: static;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -92,6 +130,7 @@ nav a:hover {
         display: block;
     }
 }
+
 .left {
     text-align: left;
     width: 33%;
@@ -115,10 +154,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-/*a:visited {
-    color: #8D6D74;
-}*/
 
 th {
     color: #8D6D74;
