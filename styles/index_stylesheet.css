@@ -369,6 +369,7 @@ body, html {
         font-weight: lighter;
         border-collapse: collapse;
     }
+
     .unleft, .uncenter, .unright {
         text-align: center;
     }
@@ -379,8 +380,11 @@ body, html {
         width: auto;
     }
 
+
+
     .headertitle {
         font-size: 17vw;
+        margin-top: 35%;
     }
 
     .headertext {
