@@ -46,12 +46,11 @@ body, html {
     font-size: 150px;
     letter-spacing: 10px;
     padding-top: 130px;
-    display:block;
+    display: block;
     position: fixed;
     font-family: 'Caveat', Roboto, sans-serif;
     text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.849);
   }
-
 
   .headertext {
     color: #292929;
@@ -69,7 +68,6 @@ body, html {
     width: 42%;
     text-shadow: 1px 1px 2px white;
 }
-
 
   .climatechange {
       font-size: 60px;
