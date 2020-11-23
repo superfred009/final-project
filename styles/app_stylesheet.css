@@ -316,13 +316,13 @@ hr {
     .app-donate-img1{
         height: auto;
         width: 150px;
-        padding-left: 10%;
+        padding-left: 5%;
         float: left;
     }
     .app-donate-img2{
         height: auto;
         width: 150px;
-        padding-right: 10%;
+        padding-right: 5%;
         padding-left: 0;
         float: right;
     }
