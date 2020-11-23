@@ -88,7 +88,12 @@ hr {
     margin-left: 0;
 }
 
-.app-donate-img{
+.app-donate-img1{
+    height: auto;
+    width: 230px;
+    padding-left: 20px;
+}
+.app-donate-img2{
     height: auto;
     width: 230px;
     padding-left: 20px;
@@ -142,6 +147,7 @@ hr {
 
     .apptitle {
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .app-popup-text {
@@ -190,10 +196,18 @@ hr {
         margin-top: -5%;
     }
 
-    .app-donate-img{
+    .app-donate-img1{
         height: auto;
         width: 230px;
-        padding-left: 20px;
+        padding-left: 15%;
+        float: left;
+    }
+    .app-donate-img2{
+        height: auto;
+        width: 230px;
+        padding-right: 15%;
+        padding-left: 0;
+        float: right;
     }
 
     .donateline {
@@ -228,7 +242,4 @@ hr {
         margin-top: 250px;
         height: 900px;
     }
-
-
-    
 }
