@@ -90,6 +90,9 @@ nav a:hover {
     .logolist li a {
         display: block;
     }
+    .nav ul {
+        padding-inline-start: 0px;
+    }
 
     .nav ul li {
         display: block;
