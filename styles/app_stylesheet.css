@@ -276,7 +276,6 @@ hr {
         padding-right: 3%;
         border-radius: 20px;
         padding-top: -3%;
-        line-height: 50px;
         margin-bottom: 30%;
         margin-left: 0;
         margin-right: 0;
@@ -290,14 +289,13 @@ hr {
 
     .app-img{
         height: auto;
-        width: 300px;
+        width: 70%;
+        padding-right: 15%;
         margin-bottom: 5%;
-        padding-left: 0;
-        float: right;
     }
 
     .app-text {
-        width: 60%;
+        width: 100%;
         border-top: none;
         text-align: center;
         float: left;
@@ -317,14 +315,14 @@ hr {
 
     .app-donate-img1{
         height: auto;
-        width: 230px;
-        padding-left: 15%;
+        width: 150px;
+        padding-left: 10%;
         float: left;
     }
     .app-donate-img2{
         height: auto;
-        width: 230px;
-        padding-right: 15%;
+        width: 150px;
+        padding-right: 10%;
         padding-left: 0;
         float: right;
     }
@@ -339,17 +337,24 @@ hr {
         margin-right: auto;
     }
 
+    .sensor-img {
+        width: 300px;
+    }
+
     .sensor-header {
         text-align: right;
         color: #82646B;
         margin-bottom: 10%;
-        margin-right: 5%;
         text-align: center;
+        margin-right: 0;
     }
 
     .sensor-text {
         text-align: center;
-        width: 160%;
+        width: 100%;
+    }
+    .sensor-text-block {
+        width: 100%;
     }
 
     .sensor-box {
@@ -359,6 +364,6 @@ hr {
         padding-top: 1px;
         padding-bottom: 5px;
         margin-top: 250px;
-        height: 900px;
+        height: 1100px;
     }
 }
