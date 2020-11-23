@@ -45,3 +45,16 @@
       height: auto;
       position: relative;
   }*/
+
+  @media screen and (max-width: 800px) {
+    .climate-change-img {
+        width: 300px;
+        height: auto;
+    }
+
+    .climate-change-text {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+  }
