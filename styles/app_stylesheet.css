@@ -140,7 +140,7 @@ hr {
         text-align: center;
     }
 
-    .apptitle, .app-paragraph {
+    .apptitle {
         text-align: center;
     }
 
@@ -167,14 +167,15 @@ hr {
         height: auto;
         width: 300px;
         margin-bottom: 5%;
-        margin-left: -12%;
+        padding-left: 0;
+        float: right;
     }
 
     .app-text {
-        width: 100%;
-        border-top: solid 3px;
-        border-color: #f0f0f0;
+        width: 60%;
+        border-top: none;
         text-align: center;
+        float: left;
     }
 
     .donateheader {
@@ -224,8 +225,8 @@ hr {
         padding-right: 10%;
         padding-top: 1px;
         padding-bottom: 5px;
-        margin-top: 60%;
-        height: 1100px;
+        margin-top: 250px;
+        height: 900px;
     }
 
 
