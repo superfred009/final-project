@@ -359,15 +359,15 @@ hr {
     }
     .sensor-text-block {
         width: 100%;
+        margin-bottom: 1px;
     }
 
     .sensor-box {
         background-color: #f0f0f0;
         padding-left: 10%;
         padding-right: 10%;
-        padding-top: 1px;
-        padding-bottom: 5px;
         margin-top: 250px;
-        height: 1100px;
+        margin-bottom: 2px;
+        height: 1350px;
     }
 }
