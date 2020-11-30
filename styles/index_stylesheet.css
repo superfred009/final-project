@@ -195,7 +195,7 @@ body, html {
   }
 
   .sustainable {
-      margin-top: 40px;
+      margin-top: 20px;
       text-align: center;
       margin-left: 10px;
   }
@@ -365,6 +365,7 @@ body, html {
       text-align: center; 
       margin-left: 5%;
       margin-right: 5%;
+      padding-bottom: 40px;
   }
   
     .solutiontable {
