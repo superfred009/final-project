@@ -240,11 +240,17 @@ hr {
         padding-top: 1px;
         padding-bottom: 5px;
         margin-top: 250px;
-        height: 900px;
+        height: 1000px;
     }
 }
 
 @media screen and (max-width: 800px) {
+    .app-img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .apptable, .apptable td,  .apptable tr {
         display: block;
     }
