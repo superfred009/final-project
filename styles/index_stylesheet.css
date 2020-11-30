@@ -10,6 +10,7 @@ body, html {
     position: relative;
 }
 
+
   .headerimg {
     background-color: #ffffff;
     background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
@@ -28,6 +29,7 @@ body, html {
     height: 800px;
     }
   }
+  
   @media screen and (max-width: 900px) { 
     .headerimg { 
     height: 600px;
@@ -38,6 +40,7 @@ body, html {
     }
   }
 
+  
   .headertitle {
     color: #6d4f55;
     position: absolute;
@@ -55,6 +58,7 @@ body, html {
     text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.849);
   }
 
+  
   .headertext {
     color: #292929;
     letter-spacing: 0;
@@ -78,6 +82,7 @@ body, html {
       font-weight: normal;
   }
 
+  
   .pitchtitle {
       text-align: center;
       margin: 0;
@@ -288,6 +293,7 @@ body, html {
     }
 
 }
+
 @media screen and (max-height: 450px) {
     .headertitle {
         font-size: 10vw;
@@ -368,10 +374,10 @@ body, html {
         background-color: #f0f0f0;
         padding-top: 0;
     }
-  
+ 
     .solutiontable td {
         vertical-align: top;
-        width: 100%;
+        width: auto;
     }
   
     .solutioncenter {
@@ -382,7 +388,7 @@ body, html {
         display: block;
     }
 
-  
+
     .untable td { 
         margin-bottom: 20px;
         margin: 0;
@@ -420,6 +426,7 @@ body, html {
         width: 80%;
     }
 
+    
     .pitchtext{
         padding-right: 10px;
         padding-left: 10px;
@@ -427,4 +434,5 @@ body, html {
   
   
 }
+
 
