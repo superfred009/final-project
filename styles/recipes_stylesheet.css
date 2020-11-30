@@ -209,3 +209,18 @@ ul {
     margin-right: 2%;
     margin-top: 13px;
 }
+
+@media screen and (max-width:900px) {
+    .headerimg {
+        background-color: #ffffff;
+        background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
+    }
+}

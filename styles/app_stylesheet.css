@@ -242,11 +242,36 @@ hr {
         margin-top: 250px;
         height: 1000px;
     }
+
+    .headerimg {
+        background-color: #ffffff;
+        background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .app-img {
         width: 250px;
+    }
+    .headerimg {
+        background-color: #ffffff;
+        background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
     }
 }
 
@@ -375,5 +400,17 @@ hr {
         margin-top: 250px;
         margin-bottom: 2px;
         height: 1350px;
+    }
+    .headerimg {
+        background-color: #ffffff;
+        background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
     }
 }
