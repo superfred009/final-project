@@ -17,7 +17,6 @@ div {
     margin-right: 10%;
 }
 
-
 .nav {
     background: white;
     min-height: 45px;
@@ -31,13 +30,13 @@ div {
 nav ul {
     padding-top: 12px;
     margin: 0;
-    /* display: inline-block; */
 }
 
 .home {
     float: left; 
     margin-left: -16px;
 } 
+
 .smallLogo {
     width: 33px;
     height: auto;
@@ -71,7 +70,6 @@ nav a:hover {
     text-decoration: none;
 }
 
-
 @media screen and (max-width: 900px) {
     .home {
         float: none;
@@ -90,6 +88,7 @@ nav a:hover {
     .logolist li a {
         display: block;
     }
+
     .nav ul {
         padding-inline-start: 0px;
     }
@@ -145,16 +144,16 @@ nav a:hover {
     color: #8D6D74;
 }
 
-
-
 .left {
     text-align: left;
     flex: 1;
 }
+
 .center {
     flex: 1;
     text-align: center;
 }
+
 .right {
     flex: 1;
     text-align: right;
@@ -177,7 +176,6 @@ nav a:hover {
         text-align: center;
     }
 }
-
 
 a {
     color: #537D88;
