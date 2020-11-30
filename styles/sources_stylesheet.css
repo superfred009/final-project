@@ -90,7 +90,11 @@ span {
     background-attachment: fixed;
   }
 
-  @media screen and (max-width:900px) {
+
+  @media screen and (max-width: 900px) { 
+    a {
+        font-size: 22px;
+    }
     .headerimg {
         background-color: #ffffff;
         background-image: url(https://github.com/superfred009/final-project/blob/main/img/headerBIG2.jpg?raw=true);
