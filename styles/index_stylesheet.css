@@ -44,6 +44,10 @@ body, html {
     .headerimg { 
     height: 600px;
     }
+    .pitchtext{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
   }
 
   .headertitle {
