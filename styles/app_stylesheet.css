@@ -280,11 +280,15 @@ hr {
         margin-left: 0;
         margin-right: 0;
      }
+     .popimg-block {
+        margin: 0;
+        width: 100%;
+    }
 
      .app-popup-img{
         height: auto;
         width: 250px;
-        margin-left: 25%;
+        margin: 0;
     }
 
     .app-img{
